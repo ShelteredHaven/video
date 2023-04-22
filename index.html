@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Видео на весь экран</title>
+    <style>
+      #video-wrapper {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+      }
+      video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="video-wrapper">
+      <video autoplay loop muted>
+        <source src="https://drive.google.com/uc?export=download&confirm=no_antivirus&id=1CRAwGNC9tjRZU11VYxczyeCOK1d6N3cl" type="video/mp4">
+      </video>
+    </div>
+    <h1></h1>
+    <p></p>
+  </body>
+</html>
